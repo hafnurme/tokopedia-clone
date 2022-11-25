@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Nunito Sans", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .control-icon {
+    @apply flex flex-col items-center justify-center box-border text-center w-20;
+  }
+}
