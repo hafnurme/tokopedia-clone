@@ -2,11 +2,11 @@
     <div>
         <Header />
         <slot />
+        <Footer />
     </div>
 </template>
  
 <script setup>
-import Header from '~~/view/Header.vue';
 
 </script>
  

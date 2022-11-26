@@ -7,6 +7,7 @@
         <HomeViewSpecialHariIniSection />
         <HomeViewPilihanPromoSection />
         <HomeViewKategoriInspirasiSection />
+        <HomeViewForYouSection />
     </main>
 </template>
 
