@@ -1,8 +1,9 @@
 <template>
     <div>
-        <h3 class="p-5">Pilihan Promo Hari Ini</h3>
-        <Swiper :slides-per-view="3" :space-between="10" :slides-offset-before="10" :slides-offset-after="10"
-            :height="200" :auto-height="true">
+        <div>
+            <h3 class="p-5 font-semibold">Pilihan Promo Hari Ini</h3>
+        </div>
+        <Swiper :slides-per-view="3" :space-between="10" :slides-offset-before="10" :slides-offset-after="10">
             <SwiperSlide class="rounded-lg overflow-hidden">
                 <img src="../../assets/image/banner/pilihan_promo/pilihan (1).jpg" alt="pilihan1">
             </SwiperSlide>
@@ -44,9 +45,6 @@
             </SwiperSlide>
             <SwiperSlide class="rounded-lg overflow-hidden">
                 <img src="../../assets/image/banner/pilihan_promo/pilihan (14).jpg" alt="pilihan14">
-            </SwiperSlide>
-            <SwiperSlide class="rounded-lg overflow-hidden  p-2 flex items-center">
-                <h3>Cek Juga Deals lainya di sini</h3>
             </SwiperSlide>
         </Swiper>
     </div>
