@@ -10,31 +10,31 @@
             </SwiperSlide>
             <SwiperSlide>
                 <div class="control-icon">
-                    <img src="@/assets/image/lihat_semua.png" alt="" class="w-9">
+                    <img src="~/assets/image/lihat_semua.png" alt="" class="w-9">
                     <p class="text-xs h-10 w-full flex items-center justify-center">Lihat Semua</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div class="control-icon">
-                    <img src="@/assets/image/toserba.png" alt="" class="w-9">
+                    <img src="~/assets/image/toserba.png" alt="" class="w-9">
                     <p class="text-xs h-10 w-full flex items-center justify-center">Toserba</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div class="control-icon">
-                    <img src="@/assets/image/gaming.png" alt="" class="w-9">
+                    <img src="~/assets/image/gaming.png" alt="" class="w-9">
                     <p class="text-xs h-10 w-full flex items-center justify-center">Gaming</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div class="control-icon">
-                    <img src="@/assets/image/topup.png" alt="" class="w-9">
+                    <img src="~/assets/image/topup.png" alt="" class="w-9">
                     <p class="text-xs h-10 w-full flex items-center justify-center">Top-Up & Tagihan</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div class="control-icon">
-                    <img src="@/assets/image/stationery.png" alt="" class="w-9">
+                    <img src="~/assets/image/stationery.png" alt="" class="w-9">
                     <p class="text-xs h-10 w-full flex items-center justify-center">Office & Stationery</p>
                 </div>
             </SwiperSlide>>

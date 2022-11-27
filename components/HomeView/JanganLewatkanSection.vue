@@ -13,7 +13,7 @@
             </div>
             <div>
                 <div class="bg-primary relative w-screen h-64 py-[10px] box-border">
-                    <img src="@/assets/image/banner/diskon.png" alt="" class="h-full absolute top-0 left-0 mx-2">
+                    <img src="~/assets/image/banner/diskon.png" alt="" class="h-full absolute top-0 left-0 mx-2">
                     <Swiper :slides-per-view="3" :space-between="10" :slides-offset-before="111"
                         :slides-offset-after="20">
                         <SwiperSlide v-for="product in products" :key="product.id" class="h-36">

@@ -2,7 +2,7 @@
     <div>
         <Header />
         <slot />
-        <Footer />
+        <FooterNav />
     </div>
 </template>
  

@@ -6,12 +6,12 @@
     }" :modules="Modules">
         <SwiperSlide>
             <div class="rounded-lg overflow-hidden mx-2">
-                <img src="@/assets/image/banner/banner (1).jpg" alt="">
+                <img src="~/assets/image/banner/banner.jpg" alt="">
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div class="rounded-lg overflow-hidden mx-2">
-                <img src="@/assets/image/banner/banner (2).jpg" alt="">
+                <img src="~/assets/image/banner/banner(2).jpg" alt="">
             </div>
         </SwiperSlide>
     </Swiper>
