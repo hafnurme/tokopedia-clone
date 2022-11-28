@@ -1,5 +1,5 @@
 <template>
-    <div class="flex mx-[10px] my-7">
+    <div class="flex mx-[10px] justify-around my-7">
         <div class="control-icon">
             <img src="~/assets/image/official_store.png" alt="" class="w-9">
             <p class="text-xs">Official Store</p>

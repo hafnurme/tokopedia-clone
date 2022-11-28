@@ -1,15 +1,11 @@
 <template>
-    <div>
+    <div class="max-w-[460px] relative mx-auto">
         <Header />
-        <slot />
+        <div>
+            <slot />
+        </div>
+        <Footer />
         <FooterNav />
     </div>
 </template>
  
-<script setup>
-
-</script>
- 
-<style lang="scss" scoped>
-
-</style>
