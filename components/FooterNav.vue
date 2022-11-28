@@ -1,5 +1,5 @@
 <template>
-    <footer class="flex justify-around fixed bottom-0 bg-white left-0 right-0 z-50 ">
+    <footer class="flex justify-around sticky bottom-0 bg-white left-0 right-0 z-50 ">
         <div class="text-center w-16 flex flex-col py-[4px]">
             <i class="material-icons text-2xl  text-primary mb-0.5">home</i>
             <span class="text-[11px] leading-3">Home</span>
