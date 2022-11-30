@@ -1,7 +1,8 @@
 <template>
     <div class="border h-screen">
         <div class="flex items-center justify-between p-5">
-            <h3 class="flex items-center font-bold"><span class="material-icons mr-2">arrow_back_ios</span>Masuk</h3>
+            <h3 class="flex items-center font-bold"><router-link to="/"
+                    class="material-icons mr-2">arrow_back_ios</router-link>Masuk</h3>
             <p class="text-primary">Daftar </p>
         </div>
         <div class="px-5">
@@ -29,4 +30,7 @@
 </template>
 
 <script setup>
+definePageMeta({
+    layout: 'layoutkosong'
+})
 </script>
