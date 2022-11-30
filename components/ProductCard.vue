@@ -1,5 +1,6 @@
 <template>
-    <div class="flex flex-col bg-white rounded-md overflow-hidden w-full h-[236px] drop-shadow border">
+    <div class="flex flex-col bg-white rounded-md overflow-hidden w-full h-[236px] drop-shadow border"
+        @click="handleProduct(product.id)">
         <div class="flex items-center justify-center h-32">
             <img :src="product.image" alt="" class="max-h-[6rem]">
         </div>
@@ -16,6 +17,12 @@
 
 <script setup>
 defineProps(['product'])
+const router = useRouter()
+const handleProduct = (id) => {
+    router.push({
+        path: `product/${id}`
+    })
+}
 </script>
 
 <style lang="scss" scoped>
