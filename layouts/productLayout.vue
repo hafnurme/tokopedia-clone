@@ -1,8 +1,8 @@
 <template>
     <div class="max-w-[460px] relative mx-auto">
-        <header class="sticky top-0 bg-white">
+        <header class="sticky top-0 bg-white z-20">
             <nav class="flex items-center p-2">
-                <router-link to="/" class="material-icons text-primary mr-2 ">arrow_back_ios</router-link>
+                <nuxt-link to="/" class="material-icons text-primary mr-2 ">arrow_back_ios</nuxt-link>
                 <input type="text" placeholder="Cari di Tokopedia"
                     class="rounded-md border-2 outline-none placeholder:text-sm py-1 px-4 w-7/12">
                 <div class="text-primary flex justify-between flex-1 ml-5">
